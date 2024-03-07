@@ -72,9 +72,12 @@ CONS:
 - it does not ensure that all possible execution paths in the code have been tested, 
 
 Branch Coverage Metric
-PROS: it provided a more detailed measure of test coverage by evaluating whether all possible outcomes of various decision points in the code have been tested.
 
-CONS: it does not not guarantee comprehensive testing of all possible code paths, as it focuses on decision points rather then individual condition within the decisions
+PROS: 
+- it provided a more detailed measure of test coverage by evaluating whether all possible outcomes of various decision points in the code have been tested.
+
+CONS: 
+- it does not not guarantee comprehensive testing of all possible code paths, as it focuses on decision points rather then individual condition within the decisions
 
 
 Text…
