@@ -30,9 +30,41 @@ Text…
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+Coverage Report of the Original Test classes 
+Range test: ![alt text](rangetest.png)  
+
+DataUtilitiesTest:![alt text](datautilitiestest.png)
+
+Coverage Report of the Revised Test classes
+Range test: ![alt text](rangetest2.png)
+
+
+DataUtilitiesTest:![alt text](datautilitiestest2.png)
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
+
+PROS: 
+-As opposed to the other coverage tools, we found EclEmma easy to set up and integrate with the Eclipse IDE
+-it provided various coverage metrics such as statement coverage, branch coverage which allowed us to asses the quality of our tests and make new tests to improve the coverage metrics.
+-it provided a detailed report and outlined all the areas of the ode that weren't outlined by the code 
+
+CONS: 
+- the eclemma tool provided a coverage without the condition coverage
+
+Statement Coverage Metric
+PROS:
+- it provided a basic measure of how much of the code has been executed by the test cases. 
+- it was easy to understand and interpret
+
+CONS: 
+- it does not ensure that all possible execution paths in the code have been tested, 
+
+Branch Coverage Metric
+PROS: it provided a more detailed measure of test coverage by evaluating whether all possible outcomes of various decision points in the code have been tested.
+
+CONS: it does not not guarantee comprehensive testing of all possible code paths, as it focuses on decision points rather then individual condition within the decisions
+
 
 Text…
 
