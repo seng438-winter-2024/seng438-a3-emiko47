@@ -24,7 +24,7 @@ Identify and rectify errors early in the development process.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-.contains() method: ![alt_text](IMG_B06385146B79-1.png)
+.contains() method:  ![alt_text](IMG_B06385146B79-1.png)
 
 # 3 A detailed description of the testing strategy for the new unit test
 
