@@ -7,7 +7,7 @@
 | Abhyudai Singh    |30157580|
 | Akalumhe Eshilama |30140722|
 | Emiko Emiko       |     |
-| Marco Truong      |     |
+| Marco Truong      | 30090441    |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
