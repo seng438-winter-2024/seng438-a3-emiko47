@@ -114,3 +114,13 @@ During this lab, some of our team members encountered difficulties with installi
 # 10 Comments/feedback on the lab itself
 
 Overall this lab was a really great first introduction into the practical application of whitebox testing and allowed us to learn many valuable lessons which definitely will come in handy in real world scenarios. This excersise also helped us work on our teamwork and learn how to communicate better!
+
+
+**References**
+ChatGPT Prompts:
+P1: Give me a list of advantages and disadvantages of requirements-based test generation and coverage-based test generation.
+
+This prompt was used simply to gain better understanding of the benefits and drawbacks of both requirement based and coverage based test generation, order to make a valid comparison.
+
+
+
