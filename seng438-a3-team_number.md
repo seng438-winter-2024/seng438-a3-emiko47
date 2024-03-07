@@ -2,9 +2,9 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
+| Group \#:      | 14  |
 | -------------- | --- |
-| Student Names: |     |
+| Abhyudai Singh |30157580|
 |                |     |
 |                |     |
 |                |     |
@@ -14,7 +14,13 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+This laboratory introduced us to the principles and implementation of white-box testing. It involved using and extending our existing test suite. we also used new coverage metrics, such as statement and branch coverage. we devised new white-box test cases to enhance code coverage and evaluated the improvements in comparison to our initial implementation. Additionally, we examined the data-flow coverage of particular methods. 
+
+By employing white box testing methodologies with coverage tools, we  achieve the following:
+Verify the testing of all pathways, encompassing branches, loops, and exception handling.
+Pinpoint the areas of the code that lack testing, allowing for more focused enhancements to the test suite.
+Enhance the code's design and ease of maintenance.
+Identify and rectify errors early in the development process.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
@@ -78,8 +84,8 @@ Text…
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+During this lab, some of our team members encountered difficulties with installing the code coverage software and libraries. We ran into unexpected errors, but in the end, we figured it out and got everything working. we also learned how to create test cases efficiently according to the needs of the code coverage. Designing these test cases was a hassle at first, but we figured it out as we got more experience with the tools.
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+Overall this lab was a really great first introduction into the practical application of whitebox testing and allowed us to learn many valuable lessons which definitely will come in handy in real world scenarios. This excersise also helped us work on our teamwork and learn how to communicate better!
