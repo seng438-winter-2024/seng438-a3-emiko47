@@ -28,11 +28,31 @@ Text…
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+To meet the coverage criteria outlined in the readMe, we added the following to the existing RangeTest suite from our A2:
+
+Boundary Values for contains() Method:
+
+- Test cases to include boundary values to ensure that the contains() method behaves correctly at the edges of the range.
+- Test cases cover values equal to the lower and upper bounds of the range, as well as values just inside and outside the range boundaries.
+- This approach helps ensure that the method handles boundary conditions correctly.
+
+ New Test Cases for intersects Method:
+
+- Test cases to verify the behavior of the intersects() method, which checks if the range intersects with another range.
+- These test cases cover various scenarios, including overlapping ranges, non-overlapping ranges, a range contained within another range, and the case of a null range argument.
+- By testing these different scenarios, the test suite aims to achieve branch coverage for the intersects() method. Thus increasing overall code coverage.
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+- **containsValueOutsideRange**: This test case checks if a value outside the range is correctly identified as not being contained within the range, thus ensuring condition coverage by exercising the 'false' condition in the contains method.
+
+- **containsValueEqualToUpperBound**: Verifies that a value equal to the upper bound of the range is correctly identified as contained within the range, ensuring condition coverage by exercising the 'true' condition in the contains method.
+
+-**intersectsShouldReturnTrueForOverlappingRanges**: Tests if the intersects method correctly identifies overlapping ranges, thereby increasing branch coverage by testing the 'true' branch of the intersects method.
+
+- **intersectsShouldReturnFalseForNonOverlappingRanges**: Ensures that non-overlapping ranges are correctly identified, increasing branch coverage by testing the 'false' branch of the intersects method.
+
+- **intersectsShouldReturnFalseForNullRange**: Tests the behavior of the intersects method when passed a null range, increasing branch coverage by exercising the condition where the argument range is null.
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
@@ -81,11 +101,11 @@ Text…
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Requirements-based test generation focuses directly on meeting the specified requirements, ensuring that the software behaves as intended. However if the requirements are incomplete or unclear, it may be challenging to generate comprehensive test cases, leading to gaps in test coverage. Coverage-based test generation aims to achieve high coverage metrics, ensuring that all parts of the code are executed during testing. Coverage-based testing may focus solely on achieving coverage metrics without considering whether the tests properly validate the specified requirements, potentially leading to gaps in test coverage.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+For this lab, only Eshilama had access to a working code coverage tool. Marco, Emiko and Abhyudai decided on test strategies and developed unit tests which were sent to eshi for coverage measurement. 
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
