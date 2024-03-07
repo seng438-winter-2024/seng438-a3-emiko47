@@ -37,11 +37,13 @@ Text…
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 Coverage Report of the Original Test classes 
+
 Range test: ![alt text](rangetest.png)  
 
 DataUtilitiesTest:![alt text](datautilitiestest.png)
 
 Coverage Report of the Revised Test classes
+
 Range test: ![alt text](rangetest2.png)
 
 
