@@ -79,9 +79,6 @@ PROS:
 CONS: 
 - it does not not guarantee comprehensive testing of all possible code paths, as it focuses on decision points rather then individual condition within the decisions
 
-
-Text…
-
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
 Text…
