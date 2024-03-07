@@ -51,6 +51,7 @@ DataUtilitiesTest:![alt text](datautilitiestest2.png)
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
 COVERAGE TOOL USED : EclEmma
+
 PROS: 
 - As opposed to the other coverage tools, we found EclEmma easy to set up and integrate with the Eclipse IDE
 - it provided various coverage metrics such as statement coverage, branch coverage which allowed us to asses the quality of our tests and make new tests to improve the coverage metrics.
@@ -60,6 +61,7 @@ CONS:
 - the eclemma tool provided a coverage without the condition coverage
 
 Statement Coverage Metric
+
 PROS:
 - it provided a basic measure of how much of the code has been executed by the test cases. 
 - it was easy to understand and interpret
