@@ -2,12 +2,12 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      | 14  |
-| -------------- | --- |
-| Abhyudai Singh |30157580|
-|                |     |
-|                |     |
-|                |     |
+| Group \#:         | 14  |
+| --------------    | --- |
+| Abhyudai Singh    |30157580|
+| Akalumhe Eshilama |30140722|
+| Emiko Emiko       |     |
+| Marco Truong      |     |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
