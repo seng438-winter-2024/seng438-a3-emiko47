@@ -83,39 +83,39 @@ public class RangeTest {
     
     
     @Test
-    public void containsZero() {
+    public void posnegrangeContainsZeroShouldReturnTrue() {
         assertTrue("The range -1 to 1 should contain 0", posnegrange.contains(0));
     }
     
     @Test
-    public void containsSeven() {
+    public void posrangecontainsSevenShouldReturnTrue() {
         assertTrue("The range 5 to 10 should contain 7", posrange.contains(7));
     }
     
     @Test
-    public void containsNegSeven() {
+    public void negrangecontainsNegSevenShouldReturnTrue() {
         assertTrue("The range -10 to -5 should contain -7", negrange.contains(-7));
     }
     
     // New test cases for increased coverage
     
     @Test
-    public void containsValueOutsideRange() {
+    public void posnegrangecontainsValueOutsideRangeShouldReturnFalse() {
         assertFalse("The range -1 to 1 should not contain 2", posnegrange.contains(2));
     }
     
     @Test
-    public void containsNegativeValueOutsideRange() {
+    public void posrangecontainsNegativeValueOutsideRangeShouldReturnFalse() {
         assertFalse("The range 5 to 10 should not contain -1", posrange.contains(-1));
     }
     
     @Test
-    public void containsValueEqualToUpperBound() {
+    public void posnegrangecontainsValueEqualToUpperBound() {
         assertTrue("The range -1 to 1 should contain 1", posnegrange.contains(1));
     }
     
     @Test
-    public void containsValueEqualToLowerBound() {
+    public void posnegrangecontainsValueEqualToLowerBound() {
         assertTrue("The range -1 to 1 should contain -1", posnegrange.contains(-1));
     }
     
